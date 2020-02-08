@@ -53,7 +53,7 @@ setInterval(async () => {
 }, 100);
 let users = require('./users.json');
 
-vk.setOptions({ token: '6c7ff9992a971135f73b31e49ecfd65a87a6b561453ee6be87374761720c8798f3ac9fe77e458907f81b1', pollingGroupId: 173290101});
+vk.setOptions({ token: '(gtoken)', pollingGroupId: 173290101});
 const { updates, snippets } = vk;
 updates.startPolling();
 updates.on('message', async (message) => { 
